@@ -1,0 +1,121 @@
+.perfil{float: right;}
+.profile{margin: 50px;}
+.noti{float: left; 
+margin-top: 56px;}
+
+
+
+
+
+.logo{
+    color:#FFD700;
+    padding: 60px;
+font-family:Arial , Helvetica , sans-serif;}
+.lateral{
+    color:#FFD700;
+    padding: 0px;
+    margin-left: 10px;
+font-family:Arial, Helvetica, sans-serif;
+list-style: none;
+font-size:20px;
+position: relative;}
+.icons{padding-right: 10px;}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+ background: aliceblue;
+
+}
+.search-box{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    border-radius: 40px;
+    transform: translate(-5%, -50%);
+    background: #FFD700;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0px;
+    transition: .2s;
+    
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:#FFD700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.list {
+    list-style: none;
+   font-style: Arial, Helvetica, sans-serif;
+   top: 25%;
+left: 30%;
+position: absolute;
+}
+.ur{display: inline;
+    position: relative;
+    margin: 30px;
+ background:#FFF8DC ;
+ border-radius: 30px;
+ padding: 30px;
+}
+.nc{display: inline;
+position: relative;
+margin: 30px;
+background:#FFF8DC ;
+border-radius: 30px;
+padding: 30px;
+}
+.vr{display: inline;
+    position: relative;
+    margin: 30px;
+    background:#FFF8DC ;
+    border-radius: 30px;
+    padding: 30px;
+}
+.ll{display: inline;
+    position: relative;
+    margin: 30px;
+    background:#FFF8DC ;
+    border-radius: 30px;
+    padding: 30px;
+ 
+}
+.img1 {position: relative;
+    padding: 0px;
+    
+}
+.img2{
+    position: relative;
+    padding: 20px;
+
+}
+.exit{margin: 30px;}
+.tabela{position: relative;
+margin-top: 1200px;
+margin-left: 600px;
+
+}
+
